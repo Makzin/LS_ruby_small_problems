@@ -9,3 +9,14 @@
 # The tests above should print true.
 
 
+def average(arr)
+  counter = 0
+  arr.each do |x|
+    counter += x 
+  end 
+  counter / arr.length
+
+end
+
+puts average([1, 5, 87, 45, 8, 8]) == 25
+puts average([9, 47, 23, 95, 16, 52]) == 40

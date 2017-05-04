@@ -14,11 +14,10 @@
 # - check if array element is 5 chars or more
 # - reverse array element if so
 # - convert array back into string
-
+  
 def reverse_words(str)
 	array = str.split(' ')
-	array.each do |x|
-		if x.length >= 5
+	array.each do |x|		if x.length >= 5
 			x.reverse!
 		end 
 	end 

@@ -14,11 +14,11 @@
 # motorcycle => 2
 
 def count_occurrences(arr)
-	view = Hash.new(0)
-	arr.each do |v| 
-		view[v] += 1 
+	occurrences = Hash.new(0)
+	arr.each do |element| 
+		occurrences[element] += 1 
 	end 
-	puts view
+	puts occurences
 end 
 
 vehicles = ['car', 'car', 'truck', 'car', 'SUV', 'truck', 'motorcycle', 'motorcycle', 'car', 'truck']
